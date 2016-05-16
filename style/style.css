@@ -1,0 +1,133 @@
+th {
+ text-align: center;
+}
+table {
+ width:100%;
+}
+table, th, td {
+ border: 1px solid red;
+ border-collapse: collapse;
+}
+th, td {
+ width: auto;
+ padding: 5px;
+ text-align: left;
+}
+table#t01 tr:nth-child(even) {
+ background-color: blue;
+}
+table#t01 tr:nth-child(odd) {
+background-color:blue;
+}
+table#t01 th	{
+ background-color: chocolate;
+ color: blue;
+}
+body {
+background-image: url(https://images6.alphacoders.com/547/547742.jpg);
+background-color: rgba(0, 0, 100, 0.5);
+}
+h1, p {
+  color: white;
+}
+.envoltura{
+  width: 1200px;
+  margin: 15px auto;
+  background-color: #FFF;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.3);
+}
+main p {
+  text-align: justify;
+  line-height: 180%;
+}
+article{
+  background-color: #fdddca;
+  float: right;
+  width: 300px;
+}
+header{
+  width: 1200px;
+  background-color: skyblue;
+}
+nav{
+  margin: 0 auto;
+  text-align: center;
+  float: right;
+}
+nav ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  background-color: white;
+  overflow: hidden;
+}
+
+nav li{
+    float: left;
+}
+nav li:hover{
+  background: #59A59B;
+  color: white;
+  transition-duration: .8s;
+}
+
+nav li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  color: inherit;
+}
+nav li a:active{
+  text-decoration: none;
+  color:#00ddff;
+}
+main{
+  padding: 10px;
+  width: 800px;
+  float: left;
+  margin: 0 5px;
+  background-color: chocolate;
+}
+aside{
+  float: right;
+}
+aside ul li{
+  border-bottom: 1px solid black;
+}
+/*.principal .trescolumnas{*/
+.principal .trescolumnas{
+  overflow: auto;
+  width: 1100px;
+  margin: 0 50px;
+  border-bottom: 3px solid black;
+
+}
+.derecho{
+  overflow: auto;
+  width: 300px;
+  margin: 0 25px;
+  border-bottom: 3px solid black;
+}
+.arti1{
+  float: left;
+  width: 300px;
+  margin: 25px 50px;
+}
+.arti2{
+  float: left;
+  width: 400px;
+  margin: 25px 0;
+}
+.arti3{
+  float: right;
+margin: 25px 50px 0 25px;
+  width: 300px;
+}
+footer{
+  background-color: chocolate;
+  text-align: center;
+  padding: 25px;
+  clear: both;
+}
